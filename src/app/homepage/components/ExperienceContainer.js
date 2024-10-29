@@ -12,10 +12,10 @@ const ExperienceItem = ({ experience }) => {
                 />
             </div>
             <div className="flex-grow">
-                <h3 className="font-semibold text-lg text-gray-300">{experience.position}</h3>
-                <div className="flex justify-between text-gray-400">
+                <h3 className="font-semibold text-lg text-gray-700">{experience.position}</h3>
+                <div className="flex justify-between text-gray-500">
                     <p>{experience.company}</p>
-                    <p className="text-gray-500 text-sm">{experience.duration}</p>
+                    <p className="text-gray-600 text-sm">{experience.duration}</p>
                 </div>
             </div>
         </div>
@@ -25,10 +25,10 @@ const ExperienceItem = ({ experience }) => {
 export default function ExperienceContainer() {
     return (
         <div className="w-full">
-            <div className="bg-gray-800 rounded-xl shadow-md p-6">
+            <div className="bg-white rounded-xl shadow-md p-6">
                 <div className="flex items-center gap-2 mb-6">
-                    <Briefcase className="w-5 h-5 text-gray-300" />
-                    <h2 className="text-2xl font-bold text-gray-300">Experience</h2>
+                    <Briefcase className="w-5 h-5 text-gray-700" />
+                    <h2 className="text-2xl font-bold text-gray-700">Experience</h2>
                 </div>
                 
                 <div>
