@@ -20,7 +20,7 @@ export default function ProjectContainer() {
                     cssMode={true}
                     effect={'coverflow'}
                     coverflowEffect={{ slideShadows: false, rotate: 30, depth: 100 }}
-                    pagination={{ clickable: true }}
+                    pagination={{ clickable: true, dynamicBullets: true }}
                 >
                     {projects.map((project, index) => (
                         <SwiperSlide key={index} className="pt-4 mb-10 max-w-xl">

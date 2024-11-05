@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Inter"],
+        oxanium: ["var(--font-oxanium)"]
       }
     },
   },
