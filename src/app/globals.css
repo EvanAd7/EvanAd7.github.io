@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ededed;
+  --background: var(--tw-colors-grey-50);
   --foreground: #ededed;
 }
 
