@@ -1,7 +1,7 @@
 export const experiences = [
     {
         company: "UC San Diego",
-        position: "Research Intern and Software Engineer",
+        position: "Research Intern & Software Engineer",
         duration: "May 2023 - Oct 2023",
         logo: "/images/UCSD.png"
     },

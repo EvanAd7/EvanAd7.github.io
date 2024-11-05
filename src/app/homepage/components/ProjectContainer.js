@@ -1,20 +1,33 @@
-import Project from './Project'
-import { projects } from '/data/projects'
+import Project from "./Project";
+import { projects } from "/data/projects";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Pagination, Navigation, EffectCoverflow } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function ProjectContainer() {
     return (
-        <div className="px-[150px] mt-20">
-            <h2 className="text-[40px] font-bold text-black mb-4">
-                My Projects
-            </h2>
-            <div className="overflow-x-auto pb-6">
-                <div className="flex gap-8 min-w-min">
+        <div className="my-8">
+            <div>
+                <Swiper
+                    modules={[Pagination, Navigation, EffectCoverflow]}
+                    initialSlide={1}
+                    slidesPerView={2}
+                    centeredSlides={true}
+                    spaceBetween={30}
+                    cssMode={true}
+                    effect={'coverflow'}
+                    coverflowEffect={{ slideShadows: false, rotate: 30, depth: 100 }}
+                    pagination={{ clickable: true }}
+                >
                     {projects.map((project, index) => (
-                        <div key={index} className="w-[400px] shrink-0">
+                        <SwiperSlide key={index} className="pt-4 mb-10 max-w-xl">
                             <Project {...project} />
-                        </div>
+                        </SwiperSlide>
                     ))}
-                </div>
+                </Swiper>
             </div>
         </div>
     );

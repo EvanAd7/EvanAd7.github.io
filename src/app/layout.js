@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "./common/components/Footer";
 
@@ -12,6 +13,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: "Create Next App",
@@ -22,9 +24,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${inter.className} antialiased min-h-screen flex flex-col`}
       >
-        <main className="flex-grow">
+        <main className="flex-grow bg-gradient-to-b from-[#f6f6f6] via-[#f8f8f8] to-[#eaeaea]">
           {children}
         </main>
         <Footer />

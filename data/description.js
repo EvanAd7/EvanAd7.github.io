@@ -1,5 +1,3 @@
-export const description = `I am a software engineer with a passion for building products that are both \
-functional and aesthetically pleasing. I am currently a student at the University of Southern California, \
-where I am pursuing a Bachelor of Science in Computer Science. I am also a research intern at UC San Diego, \
-where I am working on developing a new type of AI agent that can learn from user feedback to improve its \
-performance. In my free time, I enjoy playing tennis, reading, and traveling.`;
+export const description = `I’m a software engineer and entrepreneur with a passion for building products that are innovative, impactful, and user-friendly. I’m currently studying at the University of Southern California, pursuing a Bachelor of Science in Computer Science.
+
+I’m also a researcher with deep interests in the field of neuroscience, artificial intelligence, machine learning, and epigenetics. In high school, I conducted research at UC San Diego and published an independent research paper. As a San Diegan myself, I enjoy surfing, hiking, and playing music in my free time.`;

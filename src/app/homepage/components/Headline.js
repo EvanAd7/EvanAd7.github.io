@@ -2,12 +2,12 @@ import { description } from '/data/description'
 
 export default function Headline() {
   return (
-    <div className="px-[150px] mt-20">
-      <h2 className="text-[40px] font-bold text-black mb-4">
-        👋 Hi, I'm Evan
+    <div className="mx-auto mt-20 mb-6 max-w-3xl">
+      <h2 className="text-5xl text-center font-medium text-black mb-6">
+        Evan Adami
       </h2>
-      
-      <div className="text-xl text-gray-700 leading-relaxed">
+
+      <div className="text-lg text-gray-700 whitespace-pre-line leading-relaxed text-left mx-auto">
         {description}
       </div>
     </div>

@@ -10,7 +10,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Headline />
       <ProjectContainer />
-      <div className="mt-10 flex flex-col md:flex-row justify-center gap-8 mx-[150px]">
+      <div className="mt-10 mb-12 flex flex-col md:flex-row justify-center gap-8 mx-auto max-w-6xl">
         <div className="w-full md:w-1/2">
           <ExperienceContainer />
         </div>

@@ -7,7 +7,7 @@ export const projects = [
         link: "https://github.com/EvanAd7/neurofeedback-game"
     },
     {
-        title: "Predicting Alzheimer's Disease",
+        title: "ML for Alzheimer's",
         description: "A novel approach for predicting Alzheimer's disease using machine learning on DNA methylation in blood.",
         image: "/images/Alzheimers.png",
         technologies: ["Python", "Scikit-learn", "Matplotlib"],
